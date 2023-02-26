@@ -1,0 +1,95 @@
+2023-02-26 14:48:10.784 - INFO - 15992 - azureml.train.automl._local_managed_utils.is_docker_installed:356 - Docker is not installed.
+2023-02-26 14:48:10.784 - INFO - 15992 - azureml.train.automl.automlconfig._start_execution:230 - Submitting remote.
+2023-02-26 14:56:06.742 - INFO - 15992 - azureml.train.automl._local_managed_utils.is_docker_installed:356 - Docker is not installed.
+2023-02-26 14:56:06.742 - INFO - 15992 - azureml.train.automl.automlconfig._start_execution:230 - Submitting remote.
+2023-02-26 16:02:06.446 - INFO - 22984 - azureml.train.automl._local_managed_utils.is_docker_installed:356 - Docker is not installed.
+2023-02-26 16:02:06.447 - INFO - 22984 - azureml.train.automl.automlconfig._start_execution:230 - Submitting remote.
+2023-02-26 16:29:49.520 - INFO - 22984 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2023-02-26 16:29:49.538 - INFO - 22984 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2023-02-26 16:29:49.550 - INFO - 22984 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2023-02-26 16:29:50.798 - INFO - 22984 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=1248.09[ms]
+2023-02-26 16:29:51.220 - INFO - 22984 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=1681.5[ms]
+2023-02-26 16:29:51.220 - INFO - 22984 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2023-02-26 16:29:55.542 - WARNING - 22984 - azureml.training.tabular.models._timeseries._prophet_model.<module>:32 - Unable to import fbprophet.
+2023-02-26 16:29:56.305 - INFO - 22984 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping enabled: False
+2023-02-26 16:29:56.305 - INFO - 22984 - azureml.automl.runtime.featurization.data_transformer.__init__:191 - Feature sweeping timeout: 86400
+2023-02-26 16:29:57.111 - CRITICAL - 22984 - azureml.train.automl._model_download_utilities.log_traceback:227 - Type: Unclassified
+Class: ModuleNotFoundError
+Message: No module named 'xgboost'
+Traceback:
+  File "_model_download_utilities.py", line 172, in _load_automl_model
+    fitted_model = pickle.load(model_file)  # type: Optional[Any]
+
+ExceptionTarget: Unspecified
+2023-02-26 16:29:57.130 - CRITICAL - 22984 - azureml.train.automl._model_download_utilities.log_traceback:227 - Type: IncompatibleOrMissingDependency
+Class: ConfigException
+Message: ConfigException:
+	Message: The model you attempted to retrieve requires 'xgboost' to be installed at '==1.3.3'. Please install 'xgboost==1.3.3' (e.g. `pip install xgboost==1.3.3`) and then rerun the previous command.
+	InnerException: ModuleNotFoundError: No module named 'xgboost'
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "The model you attempted to retrieve requires 'xgboost' to be installed at '==1.3.3'. Please install 'xgboost==1.3.3' (e.g. `pip install xgboost==1.3.3`) and then rerun the previous command.",
+        "target": "get_output",
+        "inner_error": {
+            "code": "NotSupported",
+            "inner_error": {
+                "code": "IncompatibleOrMissingDependency"
+            }
+        },
+        "reference_code": "c520b52d-f8ca-4236-ab93-118b9ae3173c"
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 58, in _log_activity
+    yield
+  File "_model_download_utilities.py", line 80, in _download_automl_model
+    model = _load_automl_model(model_path, suffix)
+  File "_model_download_utilities.py", line 199, in _load_automl_model
+    ) from e
+
+ExceptionTarget: get_output
+2023-02-26 16:29:57.130 - INFO - 22984 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Failure, Duration=5910.03[ms]
+2023-02-26 16:29:57.130 - CRITICAL - 22984 - azureml.train.automl.run.log_traceback:227 - Type: IncompatibleOrMissingDependency
+Class: ConfigException
+Message: ConfigException:
+	Message: The model you attempted to retrieve requires 'xgboost' to be installed at '==1.3.3'. Please install 'xgboost==1.3.3' (e.g. `pip install xgboost==1.3.3`) and then rerun the previous command.
+	InnerException: ModuleNotFoundError: No module named 'xgboost'
+	ErrorResponse 
+{
+    "error": {
+        "code": "UserError",
+        "message": "The model you attempted to retrieve requires 'xgboost' to be installed at '==1.3.3'. Please install 'xgboost==1.3.3' (e.g. `pip install xgboost==1.3.3`) and then rerun the previous command.",
+        "target": "get_output",
+        "inner_error": {
+            "code": "NotSupported",
+            "inner_error": {
+                "code": "IncompatibleOrMissingDependency"
+            }
+        },
+        "reference_code": "c520b52d-f8ca-4236-ab93-118b9ae3173c"
+    }
+}
+Traceback:
+  File "telemetry_activity_logger.py", line 58, in _log_activity
+    yield
+  File "run.py", line 718, in get_output
+    fitted_model = _download_automl_model(curr_run, model_name)
+  File "_model_download_utilities.py", line 80, in _download_automl_model
+    model = _load_automl_model(model_path, suffix)
+  File "_model_download_utilities.py", line 199, in _load_automl_model
+    ) from e
+
+ExceptionTarget: get_output
+2023-02-26 16:29:57.130 - INFO - 22984 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Failure, Duration=7609.47[ms]
+2023-02-26 16:51:30.112 - INFO - 22984 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2023-02-26 16:51:30.130 - INFO - 22984 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2023-02-26 16:51:30.144 - INFO - 22984 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2023-02-26 16:51:31.589 - INFO - 22984 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=1444.53[ms]
+2023-02-26 16:51:32.103 - INFO - 22984 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=1972.96[ms]
+2023-02-26 16:51:32.105 - INFO - 22984 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2023-02-26 16:51:35.494 - INFO - 22984 - azureml.automl.runtime.featurization.data_transformer.__init__:190 - Feature sweeping enabled: False
+2023-02-26 16:51:35.496 - INFO - 22984 - azureml.automl.runtime.featurization.data_transformer.__init__:191 - Feature sweeping timeout: 86400
+2023-02-26 16:51:35.642 - INFO - 22984 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=3537.7[ms]
+2023-02-26 16:51:35.642 - INFO - 22984 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=5530.22[ms]
