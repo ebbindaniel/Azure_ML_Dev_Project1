@@ -1,0 +1,55 @@
+[2023-02-26T20:43:11.580643][GENERATOR][INFO]Trying to sample '4' jobs from the hyperparameter space
+[2023-02-26T20:43:12.2353478Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_0' 
+[2023-02-26T20:43:12.2940822Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_1' 
+[2023-02-26T20:43:12.4381728Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_2' 
+[2023-02-26T20:43:12.4903999Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_3' 
+[2023-02-26T20:43:12.433226][GENERATOR][INFO]Successfully sampled '4' jobs, they will soon be submitted to the execution target.
+[2023-02-26T20:43:12.6363748Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_2' 
+[2023-02-26T20:43:12.6881572Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_0' 
+[2023-02-26T20:43:12.7597820Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_3' 
+[2023-02-26T20:43:12.9052670Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_1' 
+[2023-02-26T20:55:12.370666][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space
+[2023-02-26T20:55:12.828075][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.
+[2023-02-26T20:55:12.8859572Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_4' 
+[2023-02-26T20:55:13.3256783Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_4' 
+[2023-02-26T20:55:42.373931][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space
+[2023-02-26T20:55:42.780057][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.
+[2023-02-26T20:55:42.8407813Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_5' 
+[2023-02-26T20:55:43.1607947Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_5' 
+[2023-02-26T20:56:12.356334][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space
+[2023-02-26T20:56:12.7976368Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_6' 
+[2023-02-26T20:56:12.765683][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.
+[2023-02-26T20:56:12.9863822Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_6' 
+[2023-02-26T20:56:42.443505][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space
+[2023-02-26T20:56:42.948087][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.
+[2023-02-26T20:56:43.0136100Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_7' 
+[2023-02-26T20:56:43.2249753Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_7' 
+[2023-02-26T20:57:12.398506][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space
+[2023-02-26T20:57:12.869612][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.
+[2023-02-26T20:57:12.9414489Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_8' 
+[2023-02-26T20:57:13.1369153Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_8' 
+[2023-02-26T20:57:42.377748][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space
+[2023-02-26T20:57:44.889981][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.
+[2023-02-26T20:57:44.9482345Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_9' 
+[2023-02-26T20:57:45.1311719Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_9' 
+[2023-02-26T20:58:14.457000][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space
+[2023-02-26T20:58:15.356227][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.
+[2023-02-26T20:58:15.4263605Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_10' 
+[2023-02-26T20:58:15.6784177Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_10' 
+[2023-02-26T20:58:45.399129][GENERATOR][INFO]Trying to sample '3' jobs from the hyperparameter space
+[2023-02-26T20:58:45.9137159Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_11' 
+[2023-02-26T20:58:46.0155660Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_12' 
+[2023-02-26T20:58:46.055929][GENERATOR][INFO]Successfully sampled '3' jobs, they will soon be submitted to the execution target.
+[2023-02-26T20:58:46.1391021Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_13' 
+[2023-02-26T20:58:46.2547531Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_12' 
+[2023-02-26T20:58:46.3383336Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_13' 
+[2023-02-26T20:58:46.6428609Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_11' 
+[2023-02-26T20:59:15.399221][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space
+[2023-02-26T20:59:15.764824][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.
+[2023-02-26T20:59:15.8306554Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_14' 
+[2023-02-26T20:59:16.1658211Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_14' 
+[2023-02-26T20:59:45.435092][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space
+[2023-02-26T20:59:45.887043][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.
+[2023-02-26T20:59:45.9535100Z][SCHEDULER][INFO]Scheduling job, id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_15' 
+[2023-02-26T20:59:46.1504933Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_887a2b34-8ac1-4850-aec3-53c04a5ca594_15' 
+[2023-02-26T21:01:23.857404][CONTROLLER][INFO]Experiment was 'ExperimentStatus.RUNNING', is 'ExperimentStatus.FINISHED'.
