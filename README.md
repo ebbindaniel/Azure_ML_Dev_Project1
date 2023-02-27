@@ -207,7 +207,7 @@ This parameter sets how many cross validations to perform, based on the same num
 | Max iterations | 300 |
 | Accuracy | 0.9141122913505311 |
 
-![Hyperdrive Best Run](img/best_run_hyp.JPG?raw=true "Hyperdrive Best Run")
+![best_run_hyp](img/best_run_hyp.JPG?raw=true "Hyperdrive Best Run")
 
 ![Hyperdrive Accuracy PLot](img/acc_hyp.JPG?raw=true "Hyperdrive Accuracy PLot")
 
