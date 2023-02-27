@@ -209,7 +209,7 @@ This parameter sets how many cross validations to perform, based on the same num
 
 ![best_run_hyp](img/best_run_hyp.jpg?raw=true "Hyperdrive Best Run")
 
-![Hyperdrive Accuracy PLot](img/acc_hyp.JPG?raw=true "Hyperdrive Accuracy PLot")
+![Hyperdrive Accuracy PLot](img/acc_hyp.jpg?raw=true "Hyperdrive Accuracy PLot")
 
 
 | AutoML Best Run Model | |
@@ -219,7 +219,7 @@ This parameter sets how many cross validations to perform, based on the same num
 | AUC_weighted | 0.9472247723046079 |
 | Algortithm | VotingEnsemble |
 
-![Auto ML Accuracy](img/auto_ml.JPG?raw=true "Auto ML Accuracy")
+![Auto ML Accuracy](img/auto_ml.jpg?raw=true "Auto ML Accuracy")
 
 Here we see based on the Hyperparamters we provided the HyperDrive was able to get a model with 91.41% accuracy with around 18mins to execute However the AutoML took around 27 mins to complete with a little better accuracy of 91.64% using a Voting Ensamble Model. 
 
@@ -235,9 +235,9 @@ AutoML was computationally more exhaustive but it ran a lot of models with auto 
 
 During the AutoML run, it detected an imbalance class counts
 
-![Imbalance Class info](img/aml_improvements.JPG?raw=true "Imbalance Class info")
+![Imbalance Class info](img/aml_improvements.jpg?raw=true "Imbalance Class info")
 
-![Imbalance Class](img/aml_improvements2.JPG?raw=true "Imbalance Class")
+![Imbalance Class](img/aml_improvements2.jpg?raw=true "Imbalance Class")
 
 Here we see there are only 3.6k 1s as compared to the overall dataset of 32k. This could be accounted for in the next iteration to improve the accuracy. 
 
@@ -247,7 +247,7 @@ Here we see there are only 3.6k 1s as compared to the overall dataset of 32k. Th
 
 The Cluster was deleted in the code.
 
-![Deleted Cluster](img/del.JPG?raw=true "Deleted Cluster")
+![Deleted Cluster](img/del.jpg?raw=true "Deleted Cluster")
 
 
 ## Useful Resources
